@@ -48,7 +48,7 @@ public class LoginStepDefs {
           //loginPage.login(ConfigurationReader.get("driver_username"), ConfigurationReader.get("driver_password"));
             loginPage.userName.sendKeys("driver_username");
             loginPage.password.sendKeys("driver_password");
-            loginPage.
+            loginPage.submit.click();
         }else if (usertype=="storemanager"){
             loginPage.login(ConfigurationReader.get("store_manager_username"), ConfigurationReader.get("store_manager_password"));
         }else if ((usertype=="salesmanager")){
