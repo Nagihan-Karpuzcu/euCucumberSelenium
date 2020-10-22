@@ -3,26 +3,26 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-10-22T13:36:41.800Z",
+        "start_timestamp": "2020-10-22T15:31:59.810Z",
         "before": [
           {
             "result": {
-              "duration": 1998100,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "match": {
               "location": "com.vytrack.step_definitions.Hooks.setUp()"
             }
           }
         ],
-        "line": 22,
+        "line": 4,
         "name": "Login as a user type",
         "description": "",
         "id": "users-should-be-able-to-login;login-as-a-user-type",
         "after": [
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
               "location": "com.vytrack.step_definitions.Hooks.tearDown()"
@@ -34,10 +34,10 @@
         "steps": [
           {
             "result": {
-              "duration": 10119143400,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
-            "line": 23,
+            "line": 5,
             "name": "the user is on the login page",
             "match": {
               "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
@@ -46,28 +46,18 @@
           },
           {
             "result": {
-              "duration": 5086379600,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 24,
+            "line": 6,
             "name": "the user login as \"driver\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"driver\"",
-                  "offset": 18
-                }
-              ],
-              "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_login_as(java.lang.String)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1000500,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 25,
+            "line": 7,
             "name": "the user should be able to login",
             "match": {
               "location": "com.vytrack.step_definitions.LoginStepDefs.the_user_should_be_able_to_login()"

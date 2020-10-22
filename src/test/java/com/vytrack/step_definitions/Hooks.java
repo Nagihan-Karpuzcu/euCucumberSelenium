@@ -18,12 +18,4 @@ public class Hooks {
         System.out.println("after mthod ");
     }
 
-    @Before("@db") //bunlar database icin
-    public void setUpdb(){
-        System.out.println("databas");
-    }
-    @After("@db")
-    public void closeDb(){
-        System.out.println("database");
-    }
 }
